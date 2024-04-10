@@ -43,7 +43,9 @@ const EmailSection = () => {
       id="contact"
     >
       <div>
-        <h5 className="text-4xl font-bold text-white my-2">Let's Connect</h5>
+        <h5 className="text-4xl font-bold text-white my-2">
+          Let&apos;s Connect
+        </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md text-md">
           {""}
           I&apos;m currently looking for new opportunities, my inbox is always
