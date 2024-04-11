@@ -42,7 +42,7 @@ const About = () => {
               </div>
               <div className="mt-3 sm:pe-8">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-orange-500">
-                  Bachelor's of Engineering
+                  Bachelor&apos;s of Engineering
                 </h3>
                 <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   2021-2025
