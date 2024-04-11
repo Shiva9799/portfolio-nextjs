@@ -43,8 +43,8 @@ const ProjectSection = () => {
     animate: { y: 0, opacity: 1 },
   };
   return (
-    <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+    <section className="my-7 sm:my-14" id="projects">
+      <h2 className="text-center text-5xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
       <ul ref={ref} className="grid md:grid-cols-2 gap-8 md:gap-12">

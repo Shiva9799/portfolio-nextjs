@@ -21,38 +21,64 @@ const About = () => {
             Education
           </h3>
 
-          <ol className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-12 pt-6">
+          <ol className="items-center sm:flex">
             <li className="relative mb-6 sm:mb-0">
               <div className="flex items-center">
-                <div className="w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-yellow-600 sm:ring-8 dark:ring-gray-900 shrink-0"></div>
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-700 sm:ring-8 dark:ring-slate-800 shrink-0">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="w-6 h-6 text-lime-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
               <div className="mt-3 sm:pe-8">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Secondary School
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-orange-500">
+                  Bachelor's of Engineering
                 </h3>
                 <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  2018-2019
+                  2021-2025
                 </time>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  I completed my secondary school education at Kendriya
-                  Vidyalaya No. 1, Binnaguri Cantt. with an aggregate of 89.6%.
+                  BE in Computer Science and Engineering from Chandigarh
+                  University. I am currently in my 3rd year of college.
                 </p>
               </div>
             </li>
             <li className="relative mb-6 sm:mb-0">
               <div className="flex items-center">
-                <div className="w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0"></div>
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-700 sm:ring-8 dark:ring-slate-800 shrink-0">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="w-6 h-6 text-lime-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
               <div className="mt-3 sm:pe-8">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-orange-500">
                   Senior Secondary School
                 </h3>
                 <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   2020-2021
                 </time>
-                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                <p className="text-base font-normal text-blue-500 dark:text-gray-400">
                   I completed my secondary school education at Kendriya
                   Vidyalaya No. 2, Chandimandir Cantt. with an aggregate of
                   87.6%.
@@ -61,19 +87,33 @@ const About = () => {
             </li>
             <li className="relative mb-6 sm:mb-0">
               <div className="flex items-center">
-                <div className="w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-yellow-600 sm:ring-8 dark:ring-gray-900 shrink-0"></div>
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-700 sm:ring-8 dark:ring-slate-800 shrink-0">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="w-6 h-6 text-lime-500"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
               </div>
               <div className="mt-3 sm:pe-8">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Bachelor&apos;s of Engineering
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-orange-500">
+                  Secondary School
                 </h3>
                 <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  2021-2025
+                  2018-2019
                 </time>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  BE in Computer Science and Engineering from Chandigarh
-                  University. I am currently in my 3rd year of college.
+                  I completed my secondary school education at Kendriya
+                  Vidyalaya No. 2, Chandimandir Cantt. with an aggregate of
+                  87.6%.
                 </p>
               </div>
             </li>

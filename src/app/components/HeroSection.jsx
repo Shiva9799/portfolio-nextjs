@@ -45,18 +45,7 @@ const HeroSection = () => {
           <button className="px-6 py-3 sm:w-fit rounded-full mr-4 bg-sky-400 hover:bg-violet-500 text-black">
             <Link href="mailto:shivam.sp645@gmail.com">Hire Me!</Link>
           </button>
-          <button className="px-1  py-1 sm:w-fit rounded-full hover:bg-violet-800 text-white mt-3">
-            <span className="block bg-[#3f3c3c] hover:bg-slate-800 rounded-full px-5 py-2">
-              <a
-                href="assets/ShivamResumeOrg.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                download="ShivamResumeOrg.pdf"
-              >
-                Download CV
-              </a>
-            </span>
-          </button>
+          <button className="px-1  py-1 sm:w-fit rounded-full hover:bg-violet-800 text-white mt-3"></button>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
