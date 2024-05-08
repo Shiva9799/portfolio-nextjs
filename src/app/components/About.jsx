@@ -9,12 +9,11 @@ const About = () => {
             About Me
           </h2>
           <p className="text-[#b7b0b0] text-base lg:text-lg py-3 place-self-center text-center sm:text-left">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, HTML, CSS,
-            Flutter and Git. I am a quick learner and I am always looking to
-            expand my knowledge and skill set. I am a team player and I am
-            excited to work with others to create amazing applications.
+            Thrive on the dynamic interplay between multiple microcontroller
+            platforms, programming languages, and hardware design tools. From
+            breathing life into circuits with diverse programming languages to
+            sculpting hardware masterpieces using cutting-edge design software,
+            I revel in the multifaceted journey of embedded engineering.
           </p>
 
           <h3 className="text-3xl font-bold text-teal-400 pt-4 my-9">
@@ -48,8 +47,8 @@ const About = () => {
                   2021-2025
                 </time>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  BE in Computer Science and Engineering from Chandigarh
-                  University. I am currently in my 3rd year of college.
+                  BE in Electronics and Communication Engineering from
+                  Chandigarh University.
                 </p>
               </div>
             </li>
@@ -79,9 +78,7 @@ const About = () => {
                   2020-2021
                 </time>
                 <p className="text-base font-normal text-blue-500 dark:text-gray-400">
-                  I completed my secondary school education at Kendriya
-                  Vidyalaya No. 2, Chandimandir Cantt. with an aggregate of
-                  87.6%.
+                  I completed my secondary school education at Career Point.
                 </p>
               </div>
             </li>
@@ -111,9 +108,7 @@ const About = () => {
                   2018-2019
                 </time>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  I completed my secondary school education at Kendriya
-                  Vidyalaya No. 2, Chandimandir Cantt. with an aggregate of
-                  87.6%.
+                  I completed my secondary school education at Career Point.
                 </p>
               </div>
             </li>

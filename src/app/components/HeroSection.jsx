@@ -21,13 +21,11 @@ const HeroSection = () => {
             <br />
             <TypeAnimation
               sequence={[
-                "SHIVAM KUMAR",
+                "VINAY JANGID",
                 1000,
-                "WEB DEVELOPER",
+                "EMBEDDED SYSTEMS ENGINEER",
                 1000,
-                "CODER",
-                1000,
-                "ANDROID DEVELOPER",
+                "ROBOTICS ENGINEER",
                 1000,
               ]}
               wrapper="span"
@@ -37,13 +35,13 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#b7b0b0] mb-6 text-base sm:text-lg lg:text-xl">
-            Full Stack Software Developer with UI/UX expertise, skilled in
-            building scalable and user-centric digital solutions. Proven ability
-            to resolve complex technical challenges and drive project success
-            through comprehensive front-end and back-end development.
+            An Embedded Engineer sculpting innovation in the world of embedded
+            systems. With a fusion of creativity and technical mastery, I craft
+            solutions that redefine possibilities. Let&apos;s collaborate and
+            shape the future together!
           </p>
           <button className="px-6 py-3 sm:w-fit rounded-full mr-4 bg-sky-400 hover:bg-violet-500 text-black">
-            <Link href="mailto:shivam.sp645@gmail.com">Hire Me!</Link>
+            <Link href="mailto:vinayijangid@gmail.com">Hire Me!</Link>
           </button>
           <button className="px-1  py-1 sm:w-fit rounded-full hover:bg-violet-800 text-white mt-3"></button>
         </motion.div>
